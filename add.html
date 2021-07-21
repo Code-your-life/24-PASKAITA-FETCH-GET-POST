@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+    <script src="add.js" defer ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Fira+Sans&family=Fira+Sans+Condensed&family=Fira+Sans+Extra+Condensed:wght@100&family=Josefin+Slab&family=Merriweather&family=Montserrat&family=Open+Sans&family=Oswald&family=Pacifico&family=Raleway&family=Roboto&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="size">
+        <h2 class="font">Add your property for sale</h2>
+        <p class="font">Yes, you can sell where you live and get cash!</p>
+    </header>
+
+
+    <div class="container size">
+        <h3>Add Property</h3>
+        <form class="form">
+            <label for="imgPlace">Img</label>
+            <input type="text" class="imgPlace" placeholder="https://google.com/logo.png"><br>
+            <label for="pricePlace">Price, EUR</label>
+            <input type="number" class="pricePlace" placeholder="50000"><br>
+            <label for="desPlace">Description</label>
+            <textarea class="desPlace" rows="4" cols="50">Anything you would like to say?</textarea><br>
+            <label for="city">City</label>
+            <select id="city" name="city">
+                <option value="Vilnius">Vilnius</option>
+                <option value="Kaunas">Kaunas</option>
+                <option value="Klaipėda">Klaipėda</option>
+            </select><br>
+            <button type="submit" class="modal-btn">Add Property</button>
+        </form>
+        
+    </div>
+
+    <div class="modal-bg">
+        <div class="modal">
+            <h3>Thank you! You're property added succesfuly!</h3>
+            <a href="index.html"><button class="btn">Go back</button></a>
+        </div>
+    </div>
+    
+</body>
+
+</html>

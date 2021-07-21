@@ -1,0 +1,107 @@
+:root {
+    --green-color: #04d4b2;
+    --primary-btn-color: black;
+    --primary-border-color: #f3f3f3
+   
+}
+
+body {
+    margin: 0;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.size {
+    padding-left: 200px; 
+    padding-right: 200px; 
+}
+
+header {
+    background-color: var(--green-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+ header h2 {
+     margin-bottom: 0;
+     margin-top: 40px;
+    
+    
+ }
+
+ header p {
+     margin-top: 0;
+     margin-bottom: 40px;
+ }
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filt {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: white;
+    color: var(--primary-btn-color);
+    border-color: var(--primary-border-color);
+    border-radius: 5%;
+    padding: 5px 10px;
+}
+.btn:hover {
+    border-color: var(--green-color);
+    color: var(--green-color);
+}
+
+.addProperty {
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+    color: white;
+    border-radius: 5%;
+    padding: 5px 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.propertyCard {
+    width: 200px;
+    height: 400px;
+    margin: 8px;
+    -webkit-box-shadow: 2px 7px 18px rgba(217, 208, 217, 0.5);
+    -moz-box-shadow: 2px 7px 18px rgba(217, 208, 217, 0.5);
+    box-shadow: 2px 7px 18px rgba(217, 208, 217, 0.5);
+    
+}
+
+.propImg {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 15px;
+}
+
+.propPrice {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.propCity {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: justify;
+   }
+
+.propDesc {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+
